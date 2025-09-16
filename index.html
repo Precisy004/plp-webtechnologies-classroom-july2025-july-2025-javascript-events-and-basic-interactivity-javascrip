@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mathematics tutoring, physics lessons, improve your academic performance with personalized tutoring in English and Science subjects">
+    <meta name="author" content="Scholar Adesanya Ayomide Precious">
+    <title>The Formidable Tutoring Community</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header with navigation -->
+    <header>
+        <h1>Welcome to The Formidable Tutoring Community</h1>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content container -->
+    <main class="container">
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About This Page</h2>
+            <p>The Formidable Tutoring Community is a platform where interested and dedicated students engage with seasoned tutors to tutor them in English and other key Science Courses such as Mathematics, Physics, Chemistry, Biology, Microbiology</p>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services">
+            <h2>Services Offered</h2>
+            <article class="highlight">
+                <h3>Personalized Tutoring Sessions</h3>
+                <p>We offer one-on-one tutoring sessions that ensure each student's needs are met, facilitating personalized attention and support.</p>
+            </article>
+            <article class="highlight">
+                <h3>Group Study Sessions</h3>
+                <p>The Formidable study sessions encourage collaborative learning, allowing students to benefit from shared knowledge and different engagement.</p>
+            </article>
+            <article class="highlight">
+                <h3>Online Resources</h3>
+                <p>Students have access to a wide range of online resources, including video tutorials, practice exercises, and study guides to enhance learning.</p>
+            </article>
+            <article class="highlight">
+                <h3>Regular Assessments and Feedback</h3>
+                <p>We conduct regular assessments to track progress and identify areas for improvement, and we also give room for Feedback for better improvement.</p>
+            </article>
+        </section>
+
+        <!-- Interactive Elements Section -->
+        <section>
+            <h2>Interactive Section</h2>
+
+            <!-- Light/Dark mode toggle -->
+            <button id="modeToggle">Toggle Light/Dark Mode</button>
+
+            <!-- Counter Example -->
+            <div class="counter">
+                <p>Student Counter: <span id="count">0</span></p>
+                <button id="increaseBtn">Increase</button>
+                <button id="resetBtn">Reset</button>
+            </div>
+
+            <!-- Collapsible FAQ -->
+            <div class="faq">
+                <h3 id="faqTitle">Click here: What is the purpose of this page?</h3>
+                <p id="faqAnswer" style="display: none;">This page is built as part of an assignment to practice interactivity using JavaScript.</p>
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or would like to join our community, please reach out to us:</p>
+            <ul>
+                <li>Email: <a href="mailto:ayomideadesanya37@gmail.com">ayomideadesanya37@gmail.com</a></li>
+                <li>Phone Number: <a href="tel:+2348169132909">+2348169132909</a></li>
+            </ul>
+
+            <!-- Interactive Form with Validation -->
+            <form id="myForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name">
+                <small class="error" id="nameError"></small><br><br>
+
+                <label for="email">Email:</label>
+                <input type="text" id="email">
+                <small class="error" id="emailError"></small><br><br>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password">
+                <small class="error" id="passwordError"></small><br><br>
+
+                <button type="submit">Submit</button>
+                <p id="formMessage"></p>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Tutor Adesanya Ayomide Precious. All rights reserved.</p>
+    </footer>
+
+    <!-- Link JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
